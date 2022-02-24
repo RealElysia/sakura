@@ -1,0 +1,29 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>学生管理系统注册</title>
+    <link rel="stylesheet" type="text/css" href="../static/StuWebFirst.css">
+</head>
+<body>
+    <div class="content">
+        <form action="{{url_for('Register')}}" method="post" name="register">
+            <div class="login-content">
+                <a href="" class="banner-box"></a>
+                    <div class="login-box">
+                        <h1>注册账号</h1>
+                        <input type="text" placeholder="请输入账号" required="required" name="account">
+                        <input type="password" placeholder="请输入密码" required="required" name="password">
+                        <button class="login-btn" onclick="return check()" style="cursor: pointer">注册</button>
+                        <br>
+                        <a href="/">点此返回登录</a>
+                    </div>
+            </div>
+         </form>
+    </div>
+<div class="foot">
+    <p>2021 版权所有@岩王帝君 翻版必究</p>
+</div>
+</body>
+</html>
