@@ -1,9 +1,9 @@
 pipeline {
-    agent{any 'python: 3.10.0'}
+    agent{any 'java: 1.8.0'}
     stages {
         stage('build') {
             steps {
-                sh 'python --version'
+                sh 'java -version'
             }
         }
     }
