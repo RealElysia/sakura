@@ -1,0 +1,137 @@
+11:19:34.215 [main] INFO  com.Shy.blog.BlogApplication - Starting BlogApplication using Java 17.0.7 with PID 3066 (/Users/haoyuan/IdeaProjects/blog/target/classes started by haoyuan in /Users/haoyuan/IdeaProjects/blog)
+11:19:34.217 [main] INFO  com.Shy.blog.BlogApplication - No active profile set, falling back to 1 default profile: "default"
+11:19:35.350 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+11:19:35.360 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+11:19:35.361 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+11:19:35.361 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+11:19:35.466 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+11:19:35.467 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1189 ms
+11:19:36.122 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+11:19:36.142 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+11:19:36.151 [main] INFO  com.Shy.blog.BlogApplication - Started BlogApplication in 2.544 seconds (process running for 3.037)
+11:20:05.186 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+11:20:05.187 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+11:20:05.189 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+11:20:05.524 [http-nio-8080-exec-2] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /favicon.ico
+11:20:22.260 [http-nio-8080-exec-3] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+11:20:22.460 [http-nio-8080-exec-3] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3b5f788c
+11:20:22.462 [http-nio-8080-exec-3] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+11:20:22.522 [http-nio-8080-exec-3] INFO  c.Shy.blog.controller.UserController - 数据库查询：{id:16101401, user:"shy", pwd:"121314"}
+11:20:22.572 [http-nio-8080-exec-3] INFO  c.Shy.blog.controller.UserController - 请求成功！
+11:20:45.790 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+11:20:45.803 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+16:07:21.777 [main] INFO  com.Shy.blog.BlogApplication - Starting BlogApplication using Java 17.0.7 with PID 7185 (/Users/haoyuan/IdeaProjects/blog/target/classes started by haoyuan in /Users/haoyuan/IdeaProjects/blog)
+16:07:21.779 [main] INFO  com.Shy.blog.BlogApplication - No active profile set, falling back to 1 default profile: "default"
+16:07:22.829 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+16:07:22.838 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+16:07:22.839 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+16:07:22.839 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+16:07:22.925 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+16:07:22.928 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1098 ms
+16:07:23.808 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+16:07:23.826 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+16:07:23.835 [main] INFO  com.Shy.blog.BlogApplication - Started BlogApplication in 2.62 seconds (process running for 3.058)
+16:07:47.997 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+16:07:47.998 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+16:07:48.000 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+16:08:13.184 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+16:08:13.367 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@46b80fe1
+16:08:13.369 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+16:08:13.405 [http-nio-8080-exec-2] INFO  c.Shy.blog.controller.UserController - 数据库查询：{id:16101401, user:"shy", pwd:"121314"}
+16:08:13.454 [http-nio-8080-exec-2] INFO  c.Shy.blog.controller.UserController - 请求成功！
+16:08:34.542 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+16:08:34.550 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+16:09:56.733 [main] INFO  com.Shy.blog.BlogApplication - Starting BlogApplication using Java 17.0.7 with PID 7238 (/Users/haoyuan/IdeaProjects/blog/target/classes started by haoyuan in /Users/haoyuan/IdeaProjects/blog)
+16:09:56.735 [main] INFO  com.Shy.blog.BlogApplication - No active profile set, falling back to 1 default profile: "default"
+16:09:57.668 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+16:09:57.676 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+16:09:57.676 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+16:09:57.677 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+16:09:57.760 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+16:09:57.764 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 968 ms
+16:09:58.306 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+16:09:58.324 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+16:09:58.333 [main] INFO  com.Shy.blog.BlogApplication - Started BlogApplication in 2.127 seconds (process running for 2.472)
+16:10:03.023 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+16:10:03.023 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+16:10:03.024 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+17:52:25.370 [main] INFO  com.Shy.blog.BlogApplication - Starting BlogApplication using Java 17.0.7 with PID 7914 (/Users/haoyuan/IdeaProjects/blog/target/classes started by haoyuan in /Users/haoyuan/IdeaProjects/blog)
+17:52:25.373 [main] INFO  com.Shy.blog.BlogApplication - No active profile set, falling back to 1 default profile: "default"
+17:52:26.522 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+17:52:26.532 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+17:52:26.534 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+17:52:26.534 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+17:52:26.621 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+17:52:26.623 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1193 ms
+17:52:27.787 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+17:52:27.808 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+17:52:27.820 [main] INFO  com.Shy.blog.BlogApplication - Started BlogApplication in 2.985 seconds (process running for 3.354)
+17:53:37.312 [main] INFO  com.Shy.blog.BlogApplication - Starting BlogApplication using Java 17.0.7 with PID 7935 (/Users/haoyuan/IdeaProjects/blog/target/classes started by haoyuan in /Users/haoyuan/IdeaProjects/blog)
+17:53:37.316 [main] INFO  com.Shy.blog.BlogApplication - No active profile set, falling back to 1 default profile: "default"
+17:53:38.273 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+17:53:38.281 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+17:53:38.282 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+17:53:38.282 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+17:53:38.357 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+17:53:38.359 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 982 ms
+17:53:38.868 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+17:53:38.886 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+17:53:38.895 [main] INFO  com.Shy.blog.BlogApplication - Started BlogApplication in 2.097 seconds (process running for 2.459)
+17:55:19.702 [main] INFO  com.Shy.blog.BlogApplication - Starting BlogApplication using Java 17.0.7 with PID 7958 (/Users/haoyuan/IdeaProjects/blog/target/classes started by haoyuan in /Users/haoyuan/IdeaProjects/blog)
+17:55:19.704 [main] INFO  com.Shy.blog.BlogApplication - No active profile set, falling back to 1 default profile: "default"
+17:55:20.689 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+17:55:20.698 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+17:55:20.699 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+17:55:20.699 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+17:55:20.775 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+17:55:20.778 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1018 ms
+17:55:21.507 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+17:55:21.529 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+17:55:21.539 [main] INFO  com.Shy.blog.BlogApplication - Started BlogApplication in 2.361 seconds (process running for 2.692)
+17:55:36.582 [main] INFO  com.Shy.blog.BlogApplication - Starting BlogApplication using Java 17.0.7 with PID 7962 (/Users/haoyuan/IdeaProjects/blog/target/classes started by haoyuan in /Users/haoyuan/IdeaProjects/blog)
+17:55:36.585 [main] INFO  com.Shy.blog.BlogApplication - No active profile set, falling back to 1 default profile: "default"
+17:55:37.550 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+17:55:37.559 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+17:55:37.560 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+17:55:37.560 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+17:55:37.644 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+17:55:37.647 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1006 ms
+17:55:38.189 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+17:55:38.206 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+17:55:38.215 [main] INFO  com.Shy.blog.BlogApplication - Started BlogApplication in 2.18 seconds (process running for 2.531)
+17:55:51.146 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+17:55:51.147 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+17:55:51.148 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+17:56:04.947 [http-nio-8080-exec-3] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17:56:05.140 [http-nio-8080-exec-3] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@71c11e2
+17:56:05.142 [http-nio-8080-exec-3] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17:56:25.226 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+17:56:25.242 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+18:01:55.017 [main] INFO  com.Shy.blog.BlogApplication - Starting BlogApplication using Java 17.0.7 with PID 8070 (/Users/haoyuan/IdeaProjects/blog/target/classes started by haoyuan in /Users/haoyuan/IdeaProjects/blog)
+18:01:55.019 [main] INFO  com.Shy.blog.BlogApplication - No active profile set, falling back to 1 default profile: "default"
+18:01:55.945 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+18:01:55.952 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+18:01:55.953 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+18:01:55.953 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+18:01:56.032 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+18:01:56.034 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 962 ms
+18:01:56.798 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+18:01:56.819 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+18:01:56.828 [main] INFO  com.Shy.blog.BlogApplication - Started BlogApplication in 2.34 seconds (process running for 2.687)
+18:02:07.098 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+18:02:07.099 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+18:02:07.101 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+18:02:33.236 [main] INFO  com.Shy.blog.BlogApplication - Starting BlogApplication using Java 17.0.7 with PID 8089 (/Users/haoyuan/IdeaProjects/blog/target/classes started by haoyuan in /Users/haoyuan/IdeaProjects/blog)
+18:02:33.238 [main] INFO  com.Shy.blog.BlogApplication - No active profile set, falling back to 1 default profile: "default"
+18:02:34.308 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+18:02:34.317 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+18:02:34.318 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+18:02:34.318 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+18:02:34.404 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+18:02:34.409 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1097 ms
+18:02:34.910 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+18:02:34.928 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+18:02:34.936 [main] INFO  com.Shy.blog.BlogApplication - Started BlogApplication in 2.249 seconds (process running for 2.611)
+18:02:38.709 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+18:02:38.709 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+18:02:38.711 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms

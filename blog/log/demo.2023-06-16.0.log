@@ -1,0 +1,897 @@
+15:16:23.645 [main] INFO  com.Shy.blog.BlogApplication - Starting BlogApplication using Java 17.0.7 with PID 6342 (/Users/haoyuan/IdeaProjects/blog/target/classes started by haoyuan in /Users/haoyuan/IdeaProjects/blog)
+15:16:23.647 [main] INFO  com.Shy.blog.BlogApplication - No active profile set, falling back to 1 default profile: "default"
+15:16:24.843 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+15:16:24.854 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+15:16:24.855 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+15:16:24.855 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+15:16:24.973 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+15:16:24.976 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1268 ms
+15:16:25.751 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+15:16:25.773 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+15:16:25.783 [main] INFO  com.Shy.blog.BlogApplication - Started BlogApplication in 2.802 seconds (process running for 3.305)
+15:16:30.810 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+15:16:30.811 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+15:16:30.813 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+15:16:34.452 [http-nio-8080-exec-3] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /favicon.ico
+15:16:50.789 [http-nio-8080-exec-5] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+15:16:51.029 [http-nio-8080-exec-5] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6fbd1f8c
+15:16:51.031 [http-nio-8080-exec-5] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+15:16:51.083 [http-nio-8080-exec-5] INFO  c.Shy.blog.controller.UserController - 数据库查询：{id:16101401, user:"Seele", pwd:"f4cf676496261e18f12cea039cdacbf5"}
+15:16:51.087 [http-nio-8080-exec-5] INFO  c.Shy.blog.controller.UserController - 所有信息:[{id:16101401, user:"Seele", pwd:"f4cf676496261e18f12cea039cdacbf5"}, {id:16101402, user:"Bronya", pwd:"d0970714757783e6cf17b26fb8e2298f"}, {id:16101403, user:"Kiana", pwd:"e10adc3949ba59abbe56e057f20f883e"}]
+15:16:58.829 [http-nio-8080-exec-9] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /TruE.mp3
+15:16:58.829 [http-nio-8080-exec-7] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /ASongforBeloved.mp3
+15:18:35.063 [http-nio-8080-exec-6] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /TruE.mp3
+15:18:35.063 [http-nio-8080-exec-4] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /ASongforBeloved.mp3
+15:19:29.633 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+15:19:29.651 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+15:19:32.682 [main] INFO  com.Shy.blog.BlogApplication - Starting BlogApplication using Java 17.0.7 with PID 6382 (/Users/haoyuan/IdeaProjects/blog/target/classes started by haoyuan in /Users/haoyuan/IdeaProjects/blog)
+15:19:32.685 [main] INFO  com.Shy.blog.BlogApplication - No active profile set, falling back to 1 default profile: "default"
+15:19:33.742 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+15:19:33.752 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+15:19:33.753 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+15:19:33.753 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+15:19:33.848 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+15:19:33.851 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1107 ms
+15:19:34.687 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+15:19:34.707 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+15:19:34.714 [main] INFO  com.Shy.blog.BlogApplication - Started BlogApplication in 2.609 seconds (process running for 3.001)
+15:19:39.253 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+15:19:39.253 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+15:19:39.254 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+15:19:39.324 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+15:19:39.534 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@46628bb0
+15:19:39.536 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+15:19:39.925 [http-nio-8080-exec-3] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /ASongforBeloved.mp3
+15:19:39.926 [http-nio-8080-exec-2] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /TruE.mp3
+15:20:41.619 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+15:20:41.632 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+15:20:50.199 [main] INFO  com.Shy.blog.BlogApplication - Starting BlogApplication using Java 17.0.7 with PID 6416 (/Users/haoyuan/IdeaProjects/blog/target/classes started by haoyuan in /Users/haoyuan/IdeaProjects/blog)
+15:20:50.201 [main] INFO  com.Shy.blog.BlogApplication - No active profile set, falling back to 1 default profile: "default"
+15:20:51.398 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+15:20:51.406 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+15:20:51.407 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+15:20:51.408 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+15:20:51.496 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+15:20:51.499 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1231 ms
+15:20:52.070 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+15:20:52.086 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+15:20:52.095 [main] INFO  com.Shy.blog.BlogApplication - Started BlogApplication in 2.534 seconds (process running for 2.945)
+15:20:59.369 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+15:20:59.370 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+15:20:59.372 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+15:20:59.394 [http-nio-8080-exec-2] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /ASongforBeloved.mp3
+15:20:59.394 [http-nio-8080-exec-1] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /TruE.mp3
+15:23:01.612 [http-nio-8080-exec-5] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+15:23:01.822 [http-nio-8080-exec-5] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4d14c24b
+15:23:01.824 [http-nio-8080-exec-5] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+15:23:02.188 [http-nio-8080-exec-7] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /TruE.mp3
+15:23:02.188 [http-nio-8080-exec-6] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /ASongforBeloved.mp3
+15:25:30.973 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+15:25:30.985 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+15:25:33.137 [main] INFO  com.Shy.blog.BlogApplication - Starting BlogApplication using Java 17.0.7 with PID 6510 (/Users/haoyuan/IdeaProjects/blog/target/classes started by haoyuan in /Users/haoyuan/IdeaProjects/blog)
+15:25:33.140 [main] INFO  com.Shy.blog.BlogApplication - No active profile set, falling back to 1 default profile: "default"
+15:25:34.156 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+15:25:34.164 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+15:25:34.165 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+15:25:34.165 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+15:25:34.244 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+15:25:34.246 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1045 ms
+15:25:34.813 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+15:25:34.831 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+15:25:34.840 [main] INFO  com.Shy.blog.BlogApplication - Started BlogApplication in 2.33 seconds (process running for 2.73)
+15:25:43.337 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+15:25:43.338 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+15:25:43.339 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+15:25:43.397 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+15:25:43.578 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@46628bb0
+15:25:43.582 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+15:25:43.930 [http-nio-8080-exec-2] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /TruE.mp3
+15:33:53.687 [http-nio-8080-exec-6] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /TruE.mp3
+15:36:00.477 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+15:36:00.488 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+15:36:02.317 [main] INFO  com.Shy.blog.BlogApplication - Starting BlogApplication using Java 17.0.7 with PID 6697 (/Users/haoyuan/IdeaProjects/blog/target/classes started by haoyuan in /Users/haoyuan/IdeaProjects/blog)
+15:36:02.319 [main] INFO  com.Shy.blog.BlogApplication - No active profile set, falling back to 1 default profile: "default"
+15:36:03.475 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+15:36:03.485 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+15:36:03.486 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+15:36:03.486 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+15:36:03.567 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+15:36:03.570 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1192 ms
+15:36:04.327 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+15:36:04.344 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+15:36:04.352 [main] INFO  com.Shy.blog.BlogApplication - Started BlogApplication in 2.564 seconds (process running for 2.97)
+15:36:08.790 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+15:36:08.790 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+15:36:08.792 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+15:36:08.885 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+15:36:09.073 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2aa9caff
+15:36:09.075 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+15:36:09.403 [http-nio-8080-exec-2] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /TruE.mp3
+15:38:00.890 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+15:38:00.902 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+15:38:02.925 [main] INFO  com.Shy.blog.BlogApplication - Starting BlogApplication using Java 17.0.7 with PID 6717 (/Users/haoyuan/IdeaProjects/blog/target/classes started by haoyuan in /Users/haoyuan/IdeaProjects/blog)
+15:38:02.928 [main] INFO  com.Shy.blog.BlogApplication - No active profile set, falling back to 1 default profile: "default"
+15:38:03.889 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+15:38:03.898 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+15:38:03.899 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+15:38:03.899 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+15:38:03.973 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+15:38:03.975 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 987 ms
+15:38:04.689 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+15:38:04.707 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+15:38:04.716 [main] INFO  com.Shy.blog.BlogApplication - Started BlogApplication in 2.343 seconds (process running for 2.701)
+15:38:09.854 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+15:38:09.855 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+15:38:09.858 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+15:38:09.952 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+15:38:10.122 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2aa9caff
+15:38:10.125 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+15:38:10.446 [http-nio-8080-exec-2] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /TruE.mp3
+15:38:51.844 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+15:38:51.853 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+15:38:54.886 [main] INFO  com.Shy.blog.BlogApplication - Starting BlogApplication using Java 17.0.7 with PID 6732 (/Users/haoyuan/IdeaProjects/blog/target/classes started by haoyuan in /Users/haoyuan/IdeaProjects/blog)
+15:38:54.889 [main] INFO  com.Shy.blog.BlogApplication - No active profile set, falling back to 1 default profile: "default"
+15:38:55.856 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+15:38:55.866 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+15:38:55.867 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+15:38:55.868 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+15:38:55.956 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+15:38:55.958 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1010 ms
+15:38:56.486 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+15:38:56.506 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+15:38:56.514 [main] INFO  com.Shy.blog.BlogApplication - Started BlogApplication in 2.157 seconds (process running for 2.541)
+15:38:59.753 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+15:38:59.753 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+15:38:59.759 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+15:38:59.894 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+15:39:00.048 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@46628bb0
+15:39:00.050 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+15:39:00.371 [http-nio-8080-exec-2] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /TruE.mp3
+15:40:36.356 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+15:40:36.365 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+15:40:38.344 [main] INFO  com.Shy.blog.BlogApplication - Starting BlogApplication using Java 17.0.7 with PID 6765 (/Users/haoyuan/IdeaProjects/blog/target/classes started by haoyuan in /Users/haoyuan/IdeaProjects/blog)
+15:40:38.347 [main] INFO  com.Shy.blog.BlogApplication - No active profile set, falling back to 1 default profile: "default"
+15:40:39.364 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+15:40:39.373 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+15:40:39.374 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+15:40:39.374 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+15:40:39.458 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+15:40:39.460 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1056 ms
+15:40:40.179 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+15:40:40.199 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+15:40:40.211 [main] INFO  com.Shy.blog.BlogApplication - Started BlogApplication in 2.379 seconds (process running for 2.771)
+15:40:45.000 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+15:40:45.001 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+15:40:45.004 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+15:40:45.089 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+15:40:45.275 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2aa9caff
+15:40:45.277 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+15:40:45.603 [http-nio-8080-exec-2] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /TruE.mp3
+15:41:16.647 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+15:41:16.658 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+15:41:18.596 [main] INFO  com.Shy.blog.BlogApplication - Starting BlogApplication using Java 17.0.7 with PID 6776 (/Users/haoyuan/IdeaProjects/blog/target/classes started by haoyuan in /Users/haoyuan/IdeaProjects/blog)
+15:41:18.600 [main] INFO  com.Shy.blog.BlogApplication - No active profile set, falling back to 1 default profile: "default"
+15:41:19.886 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+15:41:19.895 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+15:41:19.896 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+15:41:19.896 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+15:41:19.987 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+15:41:19.989 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1300 ms
+15:41:20.529 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+15:41:20.545 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+15:41:20.553 [main] INFO  com.Shy.blog.BlogApplication - Started BlogApplication in 2.565 seconds (process running for 2.95)
+15:41:25.783 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+15:41:25.784 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+15:41:25.787 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+15:41:25.879 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+15:41:26.090 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5d229569
+15:41:26.094 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+15:41:26.480 [http-nio-8080-exec-2] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /TruE.mp3
+15:42:42.052 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+15:42:42.064 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+15:42:44.968 [main] INFO  com.Shy.blog.BlogApplication - Starting BlogApplication using Java 17.0.7 with PID 6796 (/Users/haoyuan/IdeaProjects/blog/target/classes started by haoyuan in /Users/haoyuan/IdeaProjects/blog)
+15:42:44.971 [main] INFO  com.Shy.blog.BlogApplication - No active profile set, falling back to 1 default profile: "default"
+15:42:46.002 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+15:42:46.012 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+15:42:46.013 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+15:42:46.013 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+15:42:46.093 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+15:42:46.095 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1061 ms
+15:42:46.936 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+15:42:46.954 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+15:42:46.963 [main] INFO  com.Shy.blog.BlogApplication - Started BlogApplication in 2.55 seconds (process running for 2.87)
+15:43:03.488 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+15:43:03.488 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+15:43:03.490 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+15:43:03.565 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+15:43:03.810 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2aa9caff
+15:43:03.815 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+15:43:04.181 [http-nio-8080-exec-2] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /TruE.mp3
+15:43:04.181 [http-nio-8080-exec-3] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /ASongforBeloved.mp3
+15:43:42.040 [http-nio-8080-exec-5] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /TruE.mp3
+15:43:42.041 [http-nio-8080-exec-6] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /ASongforBeloved.mp3
+15:47:06.172 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+15:47:06.199 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+15:47:09.202 [main] INFO  com.Shy.blog.BlogApplication - Starting BlogApplication using Java 17.0.7 with PID 6928 (/Users/haoyuan/IdeaProjects/blog/target/classes started by haoyuan in /Users/haoyuan/IdeaProjects/blog)
+15:47:09.205 [main] INFO  com.Shy.blog.BlogApplication - No active profile set, falling back to 1 default profile: "default"
+15:47:10.207 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+15:47:10.216 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+15:47:10.217 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+15:47:10.217 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+15:47:10.294 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+15:47:10.296 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1035 ms
+15:47:10.823 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+15:47:10.841 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+15:47:10.848 [main] INFO  com.Shy.blog.BlogApplication - Started BlogApplication in 2.212 seconds (process running for 2.575)
+15:47:17.488 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+15:47:17.489 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+15:47:17.493 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+15:47:17.588 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+15:47:17.742 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@42244132
+15:47:17.744 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+15:47:18.104 [http-nio-8080-exec-2] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /MyGirl/TruE.mp3
+15:47:18.104 [http-nio-8080-exec-3] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /ASongforBeloved.mp3
+15:49:51.825 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+15:49:51.841 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+15:49:54.856 [main] INFO  com.Shy.blog.BlogApplication - Starting BlogApplication using Java 17.0.7 with PID 6962 (/Users/haoyuan/IdeaProjects/blog/target/classes started by haoyuan in /Users/haoyuan/IdeaProjects/blog)
+15:49:54.858 [main] INFO  com.Shy.blog.BlogApplication - No active profile set, falling back to 1 default profile: "default"
+15:49:55.818 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+15:49:55.826 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+15:49:55.827 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+15:49:55.827 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+15:49:55.908 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+15:49:55.910 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 995 ms
+15:49:56.666 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+15:49:56.685 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+15:49:56.696 [main] INFO  com.Shy.blog.BlogApplication - Started BlogApplication in 2.36 seconds (process running for 2.737)
+15:50:04.696 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+15:50:04.697 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+15:50:04.698 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+15:50:04.797 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+15:50:04.984 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5d229569
+15:50:04.986 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+15:50:05.341 [http-nio-8080-exec-2] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /ASongforBeloved.mp3
+15:50:05.343 [http-nio-8080-exec-3] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /TruE.mp3
+15:51:46.469 [http-nio-8080-exec-7] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /TruE.mp3
+15:51:46.469 [http-nio-8080-exec-8] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /ASongforBeloved.mp3
+15:52:48.083 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+15:52:48.093 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+15:52:50.180 [main] INFO  com.Shy.blog.BlogApplication - Starting BlogApplication using Java 17.0.7 with PID 7010 (/Users/haoyuan/IdeaProjects/blog/target/classes started by haoyuan in /Users/haoyuan/IdeaProjects/blog)
+15:52:50.186 [main] INFO  com.Shy.blog.BlogApplication - No active profile set, falling back to 1 default profile: "default"
+15:52:51.313 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+15:52:51.322 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+15:52:51.323 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+15:52:51.323 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+15:52:51.416 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+15:52:51.418 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1166 ms
+15:52:52.100 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+15:52:52.122 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+15:52:52.132 [main] INFO  com.Shy.blog.BlogApplication - Started BlogApplication in 2.543 seconds (process running for 2.91)
+15:52:55.360 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+15:52:55.360 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+15:52:55.362 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+15:52:55.438 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+15:52:55.624 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@46628bb0
+15:52:55.628 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+15:52:56.024 [http-nio-8080-exec-3] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /TruE.mp3
+15:52:56.024 [http-nio-8080-exec-2] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /templates/MyGirl/ASongforBeloved.mp3
+15:53:22.459 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+15:53:22.468 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+15:53:24.547 [main] INFO  com.Shy.blog.BlogApplication - Starting BlogApplication using Java 17.0.7 with PID 7022 (/Users/haoyuan/IdeaProjects/blog/target/classes started by haoyuan in /Users/haoyuan/IdeaProjects/blog)
+15:53:24.551 [main] INFO  com.Shy.blog.BlogApplication - No active profile set, falling back to 1 default profile: "default"
+15:53:25.526 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+15:53:25.535 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+15:53:25.536 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+15:53:25.536 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+15:53:25.622 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+15:53:25.624 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1027 ms
+15:53:26.130 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+15:53:26.149 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+15:53:26.160 [main] INFO  com.Shy.blog.BlogApplication - Started BlogApplication in 2.135 seconds (process running for 2.477)
+15:53:29.417 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+15:53:29.418 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+15:53:29.419 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+15:53:29.479 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+15:53:29.643 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@46628bb0
+15:53:29.647 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+15:53:30.111 [http-nio-8080-exec-2] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /TruE.mp3
+15:53:30.111 [http-nio-8080-exec-3] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /Users/haoyuan/IdeaProjects/blog/src/main/resources/templates/MyGirl/ASongforBeloved.mp3
+15:53:53.106 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+15:53:53.121 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+15:55:52.822 [main] INFO  com.Shy.blog.BlogApplication - Starting BlogApplication using Java 17.0.7 with PID 7067 (/Users/haoyuan/IdeaProjects/blog/target/classes started by haoyuan in /Users/haoyuan/IdeaProjects/blog)
+15:55:52.825 [main] INFO  com.Shy.blog.BlogApplication - No active profile set, falling back to 1 default profile: "default"
+15:55:53.875 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+15:55:53.884 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+15:55:53.885 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+15:55:53.885 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+15:55:53.961 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+15:55:53.963 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1080 ms
+15:55:54.769 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+15:55:54.786 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+15:55:54.794 [main] INFO  com.Shy.blog.BlogApplication - Started BlogApplication in 2.494 seconds (process running for 2.855)
+15:55:58.790 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+15:55:58.791 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+15:55:58.792 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+15:55:58.856 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+15:55:59.022 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5d229569
+15:55:59.027 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+15:55:59.504 [http-nio-8080-exec-2] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /Users/haoyuan/IdeaProjects/blog/TruE.mp3
+15:55:59.507 [http-nio-8080-exec-3] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /ASongforBeloved.mp3
+15:56:19.330 [http-nio-8080-exec-5] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /ASongforBeloved.mp3
+15:56:19.330 [http-nio-8080-exec-4] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /Users/haoyuan/IdeaProjects/blog/TruE.mp3
+15:57:31.108 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+15:57:31.117 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+15:57:33.150 [main] INFO  com.Shy.blog.BlogApplication - Starting BlogApplication using Java 17.0.7 with PID 7100 (/Users/haoyuan/IdeaProjects/blog/target/classes started by haoyuan in /Users/haoyuan/IdeaProjects/blog)
+15:57:33.152 [main] INFO  com.Shy.blog.BlogApplication - No active profile set, falling back to 1 default profile: "default"
+15:57:34.167 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+15:57:34.177 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+15:57:34.177 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+15:57:34.178 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+15:57:34.264 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+15:57:34.266 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1058 ms
+15:57:34.852 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+15:57:34.873 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+15:57:34.883 [main] INFO  com.Shy.blog.BlogApplication - Started BlogApplication in 2.256 seconds (process running for 2.613)
+15:57:43.791 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+15:57:43.792 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+15:57:43.793 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+15:57:43.844 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+15:57:44.027 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@42244132
+15:57:44.032 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+15:57:44.414 [http-nio-8080-exec-2] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /ASongforBeloved.mp3
+15:57:55.139 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+15:57:55.152 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+15:58:34.920 [main] INFO  com.Shy.blog.BlogApplication - Starting BlogApplication using Java 17.0.7 with PID 7138 (/Users/haoyuan/IdeaProjects/blog/target/classes started by haoyuan in /Users/haoyuan/IdeaProjects/blog)
+15:58:34.922 [main] INFO  com.Shy.blog.BlogApplication - No active profile set, falling back to 1 default profile: "default"
+15:58:35.929 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+15:58:35.937 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+15:58:35.938 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+15:58:35.939 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+15:58:36.041 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+15:58:36.044 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1066 ms
+15:58:36.754 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+15:58:36.774 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+15:58:36.783 [main] INFO  com.Shy.blog.BlogApplication - Started BlogApplication in 2.409 seconds (process running for 2.778)
+15:58:41.445 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+15:58:41.445 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+15:58:41.447 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+15:58:41.541 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+15:58:41.711 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@46628bb0
+15:58:41.713 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+15:58:42.048 [http-nio-8080-exec-2] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /ASongforBeloved.mp3
+15:58:50.246 [http-nio-8080-exec-3] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /favicon.ico
+15:59:13.882 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+15:59:13.895 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+15:59:15.946 [main] INFO  com.Shy.blog.BlogApplication - Starting BlogApplication using Java 17.0.7 with PID 7147 (/Users/haoyuan/IdeaProjects/blog/target/classes started by haoyuan in /Users/haoyuan/IdeaProjects/blog)
+15:59:15.948 [main] INFO  com.Shy.blog.BlogApplication - No active profile set, falling back to 1 default profile: "default"
+15:59:16.957 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+15:59:16.964 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+15:59:16.965 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+15:59:16.965 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+15:59:17.053 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+15:59:17.055 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1048 ms
+15:59:17.585 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+15:59:17.603 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+15:59:17.612 [main] INFO  com.Shy.blog.BlogApplication - Started BlogApplication in 2.191 seconds (process running for 2.689)
+15:59:20.650 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+15:59:20.650 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+15:59:20.652 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+15:59:20.723 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+15:59:20.939 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@42244132
+15:59:20.943 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+15:59:21.293 [http-nio-8080-exec-2] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /ASongforBeloved.mp3
+15:59:59.008 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+15:59:59.019 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+16:00:00.948 [main] INFO  com.Shy.blog.BlogApplication - Starting BlogApplication using Java 17.0.7 with PID 7163 (/Users/haoyuan/IdeaProjects/blog/target/classes started by haoyuan in /Users/haoyuan/IdeaProjects/blog)
+16:00:00.950 [main] INFO  com.Shy.blog.BlogApplication - No active profile set, falling back to 1 default profile: "default"
+16:00:01.956 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+16:00:01.965 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+16:00:01.966 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+16:00:01.966 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+16:00:02.052 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+16:00:02.055 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1036 ms
+16:00:02.643 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+16:00:02.664 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+16:00:02.676 [main] INFO  com.Shy.blog.BlogApplication - Started BlogApplication in 2.293 seconds (process running for 2.71)
+16:00:06.327 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+16:00:06.327 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+16:00:06.329 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+16:00:06.431 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+16:00:06.623 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@42244132
+16:00:06.645 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+16:00:07.009 [http-nio-8080-exec-2] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /ASongforBeloved.mp3
+16:00:35.255 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+16:00:35.265 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+16:00:37.273 [main] INFO  com.Shy.blog.BlogApplication - Starting BlogApplication using Java 17.0.7 with PID 7171 (/Users/haoyuan/IdeaProjects/blog/target/classes started by haoyuan in /Users/haoyuan/IdeaProjects/blog)
+16:00:37.275 [main] INFO  com.Shy.blog.BlogApplication - No active profile set, falling back to 1 default profile: "default"
+16:00:38.368 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+16:00:38.379 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+16:00:38.380 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+16:00:38.380 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+16:00:38.473 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+16:00:38.476 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1143 ms
+16:00:39.042 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+16:00:39.064 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+16:00:39.073 [main] INFO  com.Shy.blog.BlogApplication - Started BlogApplication in 2.328 seconds (process running for 2.702)
+16:00:42.560 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+16:00:42.560 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+16:00:42.561 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+16:00:42.627 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+16:00:42.835 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@42244132
+16:00:42.838 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+16:00:43.255 [http-nio-8080-exec-2] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /ASongforBeloved.mp3
+16:01:01.784 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+16:01:01.794 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+16:01:03.716 [main] INFO  com.Shy.blog.BlogApplication - Starting BlogApplication using Java 17.0.7 with PID 7176 (/Users/haoyuan/IdeaProjects/blog/target/classes started by haoyuan in /Users/haoyuan/IdeaProjects/blog)
+16:01:03.719 [main] INFO  com.Shy.blog.BlogApplication - No active profile set, falling back to 1 default profile: "default"
+16:01:04.691 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+16:01:04.699 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+16:01:04.701 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+16:01:04.701 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+16:01:04.776 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+16:01:04.778 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 996 ms
+16:01:05.346 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+16:01:05.364 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+16:01:05.373 [main] INFO  com.Shy.blog.BlogApplication - Started BlogApplication in 2.2 seconds (process running for 2.565)
+16:01:09.197 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+16:01:09.198 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+16:01:09.199 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+16:01:09.251 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+16:01:09.402 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@46628bb0
+16:01:09.404 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+16:01:09.924 [http-nio-8080-exec-2] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /ASongforBeloved.mp3
+16:01:47.637 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+16:01:47.644 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+16:02:01.798 [main] INFO  com.Shy.blog.BlogApplication - Starting BlogApplication using Java 17.0.7 with PID 7193 (/Users/haoyuan/IdeaProjects/blog/target/classes started by haoyuan in /Users/haoyuan/IdeaProjects/blog)
+16:02:01.801 [main] INFO  com.Shy.blog.BlogApplication - No active profile set, falling back to 1 default profile: "default"
+16:02:02.823 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+16:02:02.832 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+16:02:02.833 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+16:02:02.833 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+16:02:02.931 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+16:02:02.933 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1064 ms
+16:02:03.472 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+16:02:03.490 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+16:02:03.498 [main] INFO  com.Shy.blog.BlogApplication - Started BlogApplication in 2.286 seconds (process running for 2.782)
+16:02:08.132 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+16:02:08.138 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+16:02:08.140 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+16:02:08.230 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+16:02:08.448 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@42244132
+16:02:08.453 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+16:02:08.838 [http-nio-8080-exec-2] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /TruE.mp3
+16:02:08.839 [http-nio-8080-exec-3] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /ASongforBeloved.mp3
+16:03:29.604 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+16:03:29.617 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+16:03:31.638 [main] INFO  com.Shy.blog.BlogApplication - Starting BlogApplication using Java 17.0.7 with PID 7211 (/Users/haoyuan/IdeaProjects/blog/target/classes started by haoyuan in /Users/haoyuan/IdeaProjects/blog)
+16:03:31.640 [main] INFO  com.Shy.blog.BlogApplication - No active profile set, falling back to 1 default profile: "default"
+16:03:32.609 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+16:03:32.617 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+16:03:32.618 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+16:03:32.618 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+16:03:32.703 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+16:03:32.706 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1009 ms
+16:03:33.439 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+16:03:33.456 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+16:03:33.464 [main] INFO  com.Shy.blog.BlogApplication - Started BlogApplication in 2.323 seconds (process running for 2.67)
+16:03:37.456 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+16:03:37.456 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+16:03:37.457 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+16:03:37.511 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+16:03:37.647 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2aa9caff
+16:03:37.649 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+16:03:38.250 [http-nio-8080-exec-2] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /ASongforBeloved.mp3
+16:04:35.572 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+16:04:35.580 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+16:04:37.671 [main] INFO  com.Shy.blog.BlogApplication - Starting BlogApplication using Java 17.0.7 with PID 7245 (/Users/haoyuan/IdeaProjects/blog/target/classes started by haoyuan in /Users/haoyuan/IdeaProjects/blog)
+16:04:37.673 [main] INFO  com.Shy.blog.BlogApplication - No active profile set, falling back to 1 default profile: "default"
+16:04:38.806 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+16:04:38.815 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+16:04:38.816 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+16:04:38.816 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+16:04:38.911 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+16:04:38.914 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1181 ms
+16:04:39.512 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+16:04:39.530 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+16:04:39.538 [main] INFO  com.Shy.blog.BlogApplication - Started BlogApplication in 2.459 seconds (process running for 2.869)
+16:04:42.807 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+16:04:42.808 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+16:04:42.809 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+16:04:42.873 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+16:04:43.059 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@42244132
+16:04:43.063 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+16:04:43.504 [http-nio-8080-exec-2] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /ASongforBeloved.mp3
+16:06:39.206 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+16:06:39.218 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+16:06:41.239 [main] INFO  com.Shy.blog.BlogApplication - Starting BlogApplication using Java 17.0.7 with PID 7286 (/Users/haoyuan/IdeaProjects/blog/target/classes started by haoyuan in /Users/haoyuan/IdeaProjects/blog)
+16:06:41.242 [main] INFO  com.Shy.blog.BlogApplication - No active profile set, falling back to 1 default profile: "default"
+16:06:42.265 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+16:06:42.273 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+16:06:42.274 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+16:06:42.274 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+16:06:42.360 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+16:06:42.362 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1057 ms
+16:06:43.035 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+16:06:43.052 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+16:06:43.061 [main] INFO  com.Shy.blog.BlogApplication - Started BlogApplication in 2.363 seconds (process running for 2.727)
+16:06:48.881 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+16:06:48.881 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+16:06:48.882 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+16:06:48.929 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+16:06:49.062 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2aa9caff
+16:06:49.064 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+16:06:49.485 [http-nio-8080-exec-3] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /TruE.mp3
+16:06:49.485 [http-nio-8080-exec-2] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /ASongforBeloved.mp3
+16:13:09.145 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+16:13:09.162 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+16:13:54.818 [main] INFO  com.Shy.blog.BlogApplication - Starting BlogApplication using Java 17.0.7 with PID 7376 (/Users/haoyuan/IdeaProjects/blog/target/classes started by haoyuan in /Users/haoyuan/IdeaProjects/blog)
+16:13:54.820 [main] INFO  com.Shy.blog.BlogApplication - No active profile set, falling back to 1 default profile: "default"
+16:13:55.904 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+16:13:55.912 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+16:13:55.913 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+16:13:55.913 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+16:13:55.995 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+16:13:55.998 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1114 ms
+16:13:56.686 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+16:13:56.702 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+16:13:56.711 [main] INFO  com.Shy.blog.BlogApplication - Started BlogApplication in 2.375 seconds (process running for 2.713)
+16:15:44.057 [main] INFO  com.Shy.blog.BlogApplication - Starting BlogApplication using Java 17.0.7 with PID 7422 (/Users/haoyuan/IdeaProjects/blog/target/classes started by haoyuan in /Users/haoyuan/IdeaProjects/blog)
+16:15:44.060 [main] INFO  com.Shy.blog.BlogApplication - No active profile set, falling back to 1 default profile: "default"
+16:15:45.170 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+16:15:45.179 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+16:15:45.179 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+16:15:45.179 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+16:15:45.259 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+16:15:45.261 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1140 ms
+16:15:45.793 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+16:15:45.813 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+16:15:45.823 [main] INFO  com.Shy.blog.BlogApplication - Started BlogApplication in 2.395 seconds (process running for 2.807)
+16:15:51.534 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+16:15:51.535 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+16:15:51.536 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+16:15:51.593 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+16:15:51.751 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@55c49223
+16:15:51.753 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+16:15:52.181 [http-nio-8080-exec-2] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /ASongforBeloved.mp3
+16:17:02.043 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+16:17:02.056 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+16:17:04.087 [main] INFO  com.Shy.blog.BlogApplication - Starting BlogApplication using Java 17.0.7 with PID 7436 (/Users/haoyuan/IdeaProjects/blog/target/classes started by haoyuan in /Users/haoyuan/IdeaProjects/blog)
+16:17:04.089 [main] INFO  com.Shy.blog.BlogApplication - No active profile set, falling back to 1 default profile: "default"
+16:17:05.130 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+16:17:05.138 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+16:17:05.139 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+16:17:05.140 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+16:17:05.227 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+16:17:05.229 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1087 ms
+16:17:05.965 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+16:17:05.985 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+16:17:05.994 [main] INFO  com.Shy.blog.BlogApplication - Started BlogApplication in 2.418 seconds (process running for 2.784)
+16:17:10.127 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+16:17:10.128 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+16:17:10.129 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+16:17:10.196 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+16:17:10.417 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@42244132
+16:17:10.419 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+16:17:10.803 [http-nio-8080-exec-2] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /ASongforBeloved.mp3
+16:17:33.176 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+16:17:33.194 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+16:17:35.253 [main] INFO  com.Shy.blog.BlogApplication - Starting BlogApplication using Java 17.0.7 with PID 7446 (/Users/haoyuan/IdeaProjects/blog/target/classes started by haoyuan in /Users/haoyuan/IdeaProjects/blog)
+16:17:35.256 [main] INFO  com.Shy.blog.BlogApplication - No active profile set, falling back to 1 default profile: "default"
+16:17:36.299 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+16:17:36.307 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+16:17:36.309 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+16:17:36.309 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+16:17:36.391 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+16:17:36.394 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1079 ms
+16:17:36.947 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+16:17:36.968 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+16:17:36.977 [main] INFO  com.Shy.blog.BlogApplication - Started BlogApplication in 2.317 seconds (process running for 2.718)
+16:17:40.363 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+16:17:40.364 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+16:17:40.366 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+16:17:40.428 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+16:17:40.595 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@55c49223
+16:17:40.598 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+16:17:40.987 [http-nio-8080-exec-2] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /ASongforBeloved.mp3
+16:18:12.072 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+16:18:12.082 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+16:18:13.998 [main] INFO  com.Shy.blog.BlogApplication - Starting BlogApplication using Java 17.0.7 with PID 7457 (/Users/haoyuan/IdeaProjects/blog/target/classes started by haoyuan in /Users/haoyuan/IdeaProjects/blog)
+16:18:14.001 [main] INFO  com.Shy.blog.BlogApplication - No active profile set, falling back to 1 default profile: "default"
+16:18:15.020 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+16:18:15.028 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+16:18:15.029 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+16:18:15.029 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+16:18:15.109 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+16:18:15.112 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1051 ms
+16:18:15.651 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+16:18:15.669 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+16:18:15.677 [main] INFO  com.Shy.blog.BlogApplication - Started BlogApplication in 2.197 seconds (process running for 2.585)
+16:18:18.545 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+16:18:18.545 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+16:18:18.548 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+16:18:18.610 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+16:18:18.806 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@55c49223
+16:18:18.810 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+16:18:19.154 [http-nio-8080-exec-2] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /ASongforBeloved.mp3
+16:18:31.878 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+16:18:31.887 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+16:18:33.875 [main] INFO  com.Shy.blog.BlogApplication - Starting BlogApplication using Java 17.0.7 with PID 7464 (/Users/haoyuan/IdeaProjects/blog/target/classes started by haoyuan in /Users/haoyuan/IdeaProjects/blog)
+16:18:33.878 [main] INFO  com.Shy.blog.BlogApplication - No active profile set, falling back to 1 default profile: "default"
+16:18:34.881 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+16:18:34.889 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+16:18:34.890 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+16:18:34.890 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+16:18:34.976 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+16:18:34.979 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1037 ms
+16:18:35.638 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+16:18:35.663 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+16:18:35.674 [main] INFO  com.Shy.blog.BlogApplication - Started BlogApplication in 2.333 seconds (process running for 2.716)
+16:18:38.498 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+16:18:38.499 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+16:18:38.502 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+16:18:38.599 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+16:18:38.790 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@55c49223
+16:18:38.792 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+16:18:39.137 [http-nio-8080-exec-2] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /ASongforBeloved.mp3
+16:20:52.673 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+16:20:52.684 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+16:20:54.746 [main] INFO  com.Shy.blog.BlogApplication - Starting BlogApplication using Java 17.0.7 with PID 7530 (/Users/haoyuan/IdeaProjects/blog/target/classes started by haoyuan in /Users/haoyuan/IdeaProjects/blog)
+16:20:54.749 [main] INFO  com.Shy.blog.BlogApplication - No active profile set, falling back to 1 default profile: "default"
+16:20:55.743 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+16:20:55.751 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+16:20:55.752 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+16:20:55.752 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+16:20:55.832 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+16:20:55.834 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1028 ms
+16:20:56.399 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+16:20:56.417 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+16:20:56.425 [main] INFO  com.Shy.blog.BlogApplication - Started BlogApplication in 2.234 seconds (process running for 2.619)
+16:21:03.589 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+16:21:03.589 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+16:21:03.590 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+16:21:03.642 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+16:21:03.808 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@68e97b21
+16:21:03.813 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+16:24:30.088 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+16:24:30.100 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+16:24:32.129 [main] INFO  com.Shy.blog.BlogApplication - Starting BlogApplication using Java 17.0.7 with PID 7595 (/Users/haoyuan/IdeaProjects/blog/target/classes started by haoyuan in /Users/haoyuan/IdeaProjects/blog)
+16:24:32.131 [main] INFO  com.Shy.blog.BlogApplication - No active profile set, falling back to 1 default profile: "default"
+16:24:33.175 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+16:24:33.183 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+16:24:33.184 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+16:24:33.185 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+16:24:33.265 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+16:24:33.268 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1068 ms
+16:24:33.816 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+16:24:33.835 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+16:24:33.844 [main] INFO  com.Shy.blog.BlogApplication - Started BlogApplication in 2.284 seconds (process running for 2.679)
+16:24:41.903 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+16:24:41.903 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+16:24:41.905 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+16:24:41.964 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+16:24:42.165 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@68e97b21
+16:24:42.167 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+16:25:06.331 [http-nio-8080-exec-2] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /ASongforBeloved.mp3
+16:25:20.998 [http-nio-8080-exec-3] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /ASongforBeloved.mp3
+16:27:05.903 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+16:27:05.913 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+16:27:07.909 [main] INFO  com.Shy.blog.BlogApplication - Starting BlogApplication using Java 17.0.7 with PID 7640 (/Users/haoyuan/IdeaProjects/blog/target/classes started by haoyuan in /Users/haoyuan/IdeaProjects/blog)
+16:27:07.912 [main] INFO  com.Shy.blog.BlogApplication - No active profile set, falling back to 1 default profile: "default"
+16:27:08.835 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+16:27:08.844 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+16:27:08.845 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+16:27:08.845 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+16:27:08.921 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+16:27:08.923 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 958 ms
+16:27:09.567 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+16:27:09.586 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+16:27:09.596 [main] INFO  com.Shy.blog.BlogApplication - Started BlogApplication in 2.213 seconds (process running for 2.559)
+16:27:13.851 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+16:27:13.852 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+16:27:13.854 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+16:27:13.931 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+16:27:14.112 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@55c49223
+16:27:14.113 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+16:27:18.659 [http-nio-8080-exec-2] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /ASongforBeloved.mp3
+16:28:15.246 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+16:28:15.256 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+16:28:17.144 [main] INFO  com.Shy.blog.BlogApplication - Starting BlogApplication using Java 17.0.7 with PID 7657 (/Users/haoyuan/IdeaProjects/blog/target/classes started by haoyuan in /Users/haoyuan/IdeaProjects/blog)
+16:28:17.147 [main] INFO  com.Shy.blog.BlogApplication - No active profile set, falling back to 1 default profile: "default"
+16:28:18.146 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+16:28:18.155 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+16:28:18.156 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+16:28:18.156 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+16:28:18.240 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+16:28:18.242 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1033 ms
+16:28:18.754 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+16:28:18.771 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+16:28:18.781 [main] INFO  com.Shy.blog.BlogApplication - Started BlogApplication in 2.163 seconds (process running for 2.543)
+16:28:31.762 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+16:28:31.768 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+16:28:31.770 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+16:28:31.820 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+16:28:31.957 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@55c49223
+16:28:31.959 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+16:28:32.440 [http-nio-8080-exec-2] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /ASongforBeloved.mp3
+16:28:42.065 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+16:28:42.077 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+16:37:08.569 [main] INFO  com.Shy.blog.BlogApplication - Starting BlogApplication using Java 17.0.7 with PID 7776 (/Users/haoyuan/IdeaProjects/blog/target/classes started by haoyuan in /Users/haoyuan/IdeaProjects/blog)
+16:37:08.572 [main] INFO  com.Shy.blog.BlogApplication - No active profile set, falling back to 1 default profile: "default"
+16:37:09.606 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+16:37:09.613 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+16:37:09.613 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+16:37:09.614 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+16:37:09.694 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+16:37:09.696 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1063 ms
+16:37:10.448 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+16:37:10.466 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+16:37:10.475 [main] INFO  com.Shy.blog.BlogApplication - Started BlogApplication in 2.492 seconds (process running for 2.818)
+16:37:19.166 [main] INFO  com.Shy.blog.BlogApplication - Starting BlogApplication using Java 17.0.7 with PID 7781 (/Users/haoyuan/IdeaProjects/blog/target/classes started by haoyuan in /Users/haoyuan/IdeaProjects/blog)
+16:37:19.168 [main] INFO  com.Shy.blog.BlogApplication - No active profile set, falling back to 1 default profile: "default"
+16:37:20.155 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+16:37:20.162 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+16:37:20.163 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+16:37:20.163 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+16:37:20.246 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+16:37:20.248 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1016 ms
+16:37:20.797 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+16:37:20.820 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+16:37:20.830 [main] INFO  com.Shy.blog.BlogApplication - Started BlogApplication in 2.193 seconds (process running for 2.563)
+16:37:28.430 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+16:37:28.431 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+16:37:28.432 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+16:37:28.523 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+16:37:28.699 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@68e97b21
+16:37:28.701 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+16:37:29.045 [http-nio-8080-exec-2] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /ASongforBeloved.mp3
+16:37:41.639 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+16:37:41.648 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+16:37:43.580 [main] INFO  com.Shy.blog.BlogApplication - Starting BlogApplication using Java 17.0.7 with PID 7790 (/Users/haoyuan/IdeaProjects/blog/target/classes started by haoyuan in /Users/haoyuan/IdeaProjects/blog)
+16:37:43.582 [main] INFO  com.Shy.blog.BlogApplication - No active profile set, falling back to 1 default profile: "default"
+16:37:44.551 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+16:37:44.560 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+16:37:44.561 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+16:37:44.562 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+16:37:44.654 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+16:37:44.656 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1014 ms
+16:37:45.213 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+16:37:45.233 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+16:37:45.243 [main] INFO  com.Shy.blog.BlogApplication - Started BlogApplication in 2.151 seconds (process running for 2.484)
+16:37:48.585 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+16:37:48.586 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+16:37:48.590 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+16:37:48.689 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+16:37:48.858 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@55c49223
+16:37:48.860 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+16:37:49.181 [http-nio-8080-exec-2] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /ASongforBeloved.mp3
+16:38:35.150 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+16:38:35.160 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+16:38:37.026 [main] INFO  com.Shy.blog.BlogApplication - Starting BlogApplication using Java 17.0.7 with PID 7807 (/Users/haoyuan/IdeaProjects/blog/target/classes started by haoyuan in /Users/haoyuan/IdeaProjects/blog)
+16:38:37.029 [main] INFO  com.Shy.blog.BlogApplication - No active profile set, falling back to 1 default profile: "default"
+16:38:38.146 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+16:38:38.156 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+16:38:38.158 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+16:38:38.158 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+16:38:38.277 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+16:38:38.280 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1192 ms
+16:38:38.960 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+16:38:38.984 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+16:38:38.995 [main] INFO  com.Shy.blog.BlogApplication - Started BlogApplication in 2.529 seconds (process running for 2.87)
+16:38:52.283 [main] INFO  com.Shy.blog.BlogApplication - Starting BlogApplication using Java 17.0.7 with PID 7818 (/Users/haoyuan/IdeaProjects/blog/target/classes started by haoyuan in /Users/haoyuan/IdeaProjects/blog)
+16:38:52.285 [main] INFO  com.Shy.blog.BlogApplication - No active profile set, falling back to 1 default profile: "default"
+16:38:53.344 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+16:38:53.353 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+16:38:53.354 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+16:38:53.354 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+16:38:53.430 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+16:38:53.432 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1087 ms
+16:38:53.985 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+16:38:54.003 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+16:38:54.012 [main] INFO  com.Shy.blog.BlogApplication - Started BlogApplication in 2.253 seconds (process running for 2.644)
+16:38:57.665 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+16:38:57.666 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+16:38:57.667 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+16:38:57.749 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+16:38:57.974 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5d65d9cf
+16:38:57.978 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+16:38:58.332 [http-nio-8080-exec-2] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /ASongforBeloved.mp3
+16:39:13.877 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+16:39:13.887 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+16:39:15.883 [main] INFO  com.Shy.blog.BlogApplication - Starting BlogApplication using Java 17.0.7 with PID 7825 (/Users/haoyuan/IdeaProjects/blog/target/classes started by haoyuan in /Users/haoyuan/IdeaProjects/blog)
+16:39:15.885 [main] INFO  com.Shy.blog.BlogApplication - No active profile set, falling back to 1 default profile: "default"
+16:39:16.853 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+16:39:16.861 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+16:39:16.862 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+16:39:16.862 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+16:39:16.947 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+16:39:16.949 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1001 ms
+16:39:17.494 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+16:39:17.512 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+16:39:17.522 [main] INFO  com.Shy.blog.BlogApplication - Started BlogApplication in 2.178 seconds (process running for 2.512)
+16:39:20.536 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+16:39:20.537 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+16:39:20.539 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+16:39:20.614 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+16:39:20.852 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@55c49223
+16:39:20.856 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+16:39:21.244 [http-nio-8080-exec-2] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /ASongforBeloved.mp3
+16:39:39.532 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+16:39:39.541 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+16:39:41.430 [main] INFO  com.Shy.blog.BlogApplication - Starting BlogApplication using Java 17.0.7 with PID 7833 (/Users/haoyuan/IdeaProjects/blog/target/classes started by haoyuan in /Users/haoyuan/IdeaProjects/blog)
+16:39:41.433 [main] INFO  com.Shy.blog.BlogApplication - No active profile set, falling back to 1 default profile: "default"
+16:39:42.433 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+16:39:42.441 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+16:39:42.442 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+16:39:42.442 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+16:39:42.514 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+16:39:42.517 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1025 ms
+16:39:43.094 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+16:39:43.112 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+16:39:43.120 [main] INFO  com.Shy.blog.BlogApplication - Started BlogApplication in 2.218 seconds (process running for 2.61)
+16:39:46.186 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+16:39:46.186 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+16:39:46.188 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+16:39:46.250 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+16:39:46.414 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@55c49223
+16:39:46.417 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+16:39:46.791 [http-nio-8080-exec-2] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /ASongforBeloved.mp3
+16:40:43.230 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+16:40:43.242 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+16:40:45.226 [main] INFO  com.Shy.blog.BlogApplication - Starting BlogApplication using Java 17.0.7 with PID 7849 (/Users/haoyuan/IdeaProjects/blog/target/classes started by haoyuan in /Users/haoyuan/IdeaProjects/blog)
+16:40:45.229 [main] INFO  com.Shy.blog.BlogApplication - No active profile set, falling back to 1 default profile: "default"
+16:40:46.265 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+16:40:46.274 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+16:40:46.275 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+16:40:46.275 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+16:40:46.350 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+16:40:46.351 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1065 ms
+16:40:46.864 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+16:40:46.881 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+16:40:46.888 [main] INFO  com.Shy.blog.BlogApplication - Started BlogApplication in 2.183 seconds (process running for 2.54)
+16:40:51.026 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+16:40:51.027 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+16:40:51.028 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+16:40:51.119 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+16:40:51.328 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@68e97b21
+16:40:51.330 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+16:40:51.683 [http-nio-8080-exec-2] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /ASongforBeloved.mp3
+16:41:36.465 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+16:41:36.476 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+16:41:38.299 [main] INFO  com.Shy.blog.BlogApplication - Starting BlogApplication using Java 17.0.7 with PID 7861 (/Users/haoyuan/IdeaProjects/blog/target/classes started by haoyuan in /Users/haoyuan/IdeaProjects/blog)
+16:41:38.302 [main] INFO  com.Shy.blog.BlogApplication - No active profile set, falling back to 1 default profile: "default"
+16:41:39.370 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+16:41:39.383 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+16:41:39.385 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+16:41:39.386 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+16:41:39.504 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+16:41:39.506 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1139 ms
+16:41:40.061 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+16:41:40.078 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+16:41:40.088 [main] INFO  com.Shy.blog.BlogApplication - Started BlogApplication in 2.286 seconds (process running for 2.672)
+16:41:52.581 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+16:41:52.581 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+16:41:52.583 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+16:41:52.669 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+16:41:52.886 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@55c49223
+16:41:52.888 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+16:42:14.886 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+16:42:14.898 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+16:43:37.466 [main] INFO  com.Shy.blog.BlogApplication - Starting BlogApplication using Java 17.0.7 with PID 7883 (/Users/haoyuan/IdeaProjects/blog/target/classes started by haoyuan in /Users/haoyuan/IdeaProjects/blog)
+16:43:37.469 [main] INFO  com.Shy.blog.BlogApplication - No active profile set, falling back to 1 default profile: "default"
+16:43:38.484 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+16:43:38.492 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+16:43:38.493 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+16:43:38.493 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+16:43:38.583 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+16:43:38.585 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1060 ms
+16:43:39.163 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+16:43:39.181 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+16:43:39.189 [main] INFO  com.Shy.blog.BlogApplication - Started BlogApplication in 2.253 seconds (process running for 2.594)
+16:43:42.473 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+16:43:42.474 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+16:43:42.476 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+16:43:42.549 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+16:43:42.747 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@55c49223
+16:43:42.749 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+16:44:04.033 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+16:44:04.057 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
