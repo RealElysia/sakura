@@ -4,6 +4,7 @@ import com.alibaba.fastjson.JSONObject;
 import com.alibaba.fastjson.JSONArray;
 
 import java.io.*;
+import java.nio.charset.StandardCharsets;
 
 public class testUtil {
     // JSON解析类
@@ -26,7 +27,7 @@ public class testUtil {
         File jsonFile = new File(fileName);
         try{
             FileReader fr = new FileReader(jsonFile);
-            Reader r = new InputStreamReader(new FileInputStream(jsonFile), "utf-8");
+            Reader r = new InputStreamReader(new FileInputStream(jsonFile), StandardCharsets.UTF_8);
             int ch = 0;
             StringBuffer sb = new StringBuffer();
             while ((ch=r.read())!=-1){

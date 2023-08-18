@@ -4,11 +4,14 @@ logging:
     com.Shy.blog.controller: trace
 
 spring:
+  http:
+    encoding:
+      charset: UTF-8
   thymeleaf:
     cache: false
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/test?useSSL=false&useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true&autoReconnect=true&failOverReadOnly=false&maxReconnects=10
+    url: jdbc:mysql://localhost:3306/Blog?useSSL=false&useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true&autoReconnect=true&failOverReadOnly=false&maxReconnects=10
     username: root
     password: ms111111
     hikari:
@@ -25,6 +28,8 @@ mybatis:
   configuration:
     map-underscore-to-camel-case: true # 驼峰命名规范
   mapper-locations: # mapper映射文件位置
-    classpath: Mapper/*.xml
+    classpath: mapper/*.xml
 
-server: 0.0.0.0
+server:
+  host: 0.0.0.0
+  port: 80

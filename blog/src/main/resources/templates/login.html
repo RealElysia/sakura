@@ -74,7 +74,7 @@
 				</div>
 
 				<div class="layui-form-item">
-					<button class="layui-btn layui-btn-fluid" type="button">登录</button>
+					<button class="layui-btn layui-btn-fluid" lay-submit type="button">登录</button>
 				</div>
 				<div class="layui-form-item login-other">
 					<a href="/signup">点击此处注册账号</a>
@@ -93,7 +93,7 @@
 			      if(!new RegExp("^[a-zA-Z0-9_\u4e00-\u9fa5\\s·]+$").test(value)){
 			        return '用户名不能有特殊字符';
 			      }
-			      if(/(^_)|(__)|(_+$)/.test(value)) return '用户名首尾不能出现 _ 下划线';
+			      if(/(^_)|(__)|(_+$)/.test(value)) return '用户名首尾不能出现下划线';
 			      if(/^\d+$/.test(value)) return '用户名不能全为数字';
 
 			      if(value === 'fuck'){

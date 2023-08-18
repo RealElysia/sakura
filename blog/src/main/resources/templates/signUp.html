@@ -66,7 +66,7 @@
             </div>
 
             <div class="layui-form-item">
-                <button class="layui-btn layui-btn-fluid" type="button">注册</button>
+                <button class="layui-btn layui-btn-fluid" lay-submit type="button" lay-filter="register">注册</button>
             </div>
             <a href="/login" class="other">登陆已有账号</a>
         </div>
@@ -74,43 +74,43 @@
 </div>
 <script>
     layui.use(function(){
-			var fm = layui.form;
-			var ly = layui.layer;
-			var $ = layui.$;
-			// 规则验证
-			fm.verify({
-				user: function(value, item){
-			      if(!new RegExp("^[a-zA-Z0-9_\u4e00-\u9fa5\\s·]+$").test(value)){
-			        return '用户名不能有特殊字符';
+		var fm = layui.form;
+		var ly = layui.layer;
+		// 规则验证
+		fm.verify({
+			user: function(value, item){
+			    if(!new RegExp("^[a-zA-Z0-9_\u4e00-\u9fa5\\s·]+$").test(value)){
+			    	return '用户名不能有特殊字符';
 			      }
-			      if(/(^_)|(__)|(_+$)/.test(value)) return '用户名首尾不能出现 _ 下划线';
-			      if(/^\d+$/.test(value)) return '用户名不能全为数字';
+			    if(/(^_)|(__)|(_+$)/.test(value)) return '用户名首尾不能出现 _ 下划线';
+			    if(/^\d+$/.test(value)) return '用户名不能全为数字';
 
-			      if(value === 'fuck'){
-			        alert('用户名不能为敏感词');
+			    if(value === 'fuck'){
+			    	alert('用户名不能为敏感词');
 			        return true;
-			      }
-			    },
-			    pwd: [/^[\S]{6,12}$/, '密码必须为6到12位的非空字符']
-			});
+			    }1
+			},
+			pwd: [/^[\S]{6,12}$/, '密码必须为6到12位的非空字符']
 		});
-		$(document).ready(function(){
-			$("button").click(function(){
-				var user = document.getElementById("us").value;
-				var pwd = document.getElementById("pw").value;
-                var mdStr = CryptoJS.MD5(pwd).toString();
-				$.ajax({
-					url: "/register",
-					data:{"user": user, "pwd": mdStr},
-					type: "POST",
-					dataType: "json",
-					success: function(resp){
-						alert("注册成功！\n你的ID是:" + resp.id + "\n请牢记此ID，避免账号丢失！");
-						window.location.href="/login";
-					}
-				});
+		// 表单提交事件
+		fm.on('submit(register)', function(data){
+			var fie = data.field;  // 表单的字段值
+	 		var pwd = document.getElementById("pw").value;
+	 		fie.pwd = CryptoJS.MD5(pwd).toString()
+			$.ajax({
+				url: "/register",
+				data: fie,
+				type: "POST",
+				dataType: "json",
+				success: function(resp){
+					alert("注册成功！\n你的ID是:" + resp.id + "\n请牢记此ID，避免账号丢失！");
+					window.location.href="/login";
+				}
 			});
+			return true;
 		});
+	});
+
 </script>
 </body>
 </html>

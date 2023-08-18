@@ -1,6 +1,6 @@
 <configuration>
     <property name="LOG_PATTERN" value="%date{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n" />
-    <property name="FILE_PATH" value="/Users/haoyuan/IdeaProjects/blog/log/demo.%d{yyyy-MM-dd}.%i.log" />
+    <property name="FILE_PATH" value="/Users/ayaka/Desktop/sakura/blog/log/demo.%d{yyyy-MM-dd}.%i.log" />
 <!--控制台输出-->
     <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
         <encoder>
@@ -27,7 +27,7 @@
             </encoder>
         </appender>
     <!--输出级别-->
-        <logger name="com.itcodai.course03" level="INFO" />
+        <logger name="com.elysia.controller" level="INFO" />
         <root level="INFO">
             <appender-ref ref="CONSOLE" />
             <appender-ref ref="FILE" />

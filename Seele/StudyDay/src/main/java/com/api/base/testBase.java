@@ -14,7 +14,6 @@ public class testBase {
             FileInputStream file = new FileInputStream(System.getProperty("user.dir")+
                     "/src/main/resources/config.properties");
             pro.load(file);
-        }catch (FileNotFoundException e){e.printStackTrace();}
-        catch (IOException e){e.printStackTrace();}
+        } catch (IOException e){e.printStackTrace();}
     }
 }

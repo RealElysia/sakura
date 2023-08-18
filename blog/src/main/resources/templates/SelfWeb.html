@@ -2,9 +2,23 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>这个是最没用的</title>
-  <link rel="stylesheet" type="text/css" href="https://cdn.staticfile.org/layui/2.8.4/css/layui.css">
-  <script src="https://cdn.staticfile.org/layui/2.8.4/layui.js"></script>
+    <title>小工具</title>
+    <link rel="stylesheet" type="text/css" href="https://cdn.staticfile.org/layui/2.8.4/css/layui.css">
+    <script src="https://cdn.staticfile.org/layui/2.8.4/layui.js"></script>
+    <script src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js"></script>
+    <style>
+        @keyframes loading {
+            0% {content: "抓取中，请稍后...";}
+            33% {content: "抓取中，请稍后...";}
+            66% {content: "抓取中，请稍后...";}
+            100% {content: "抓取中，请稍后...";}
+        }
+        .disable {
+            pointer-events: none;
+            opacity: 0.5;
+        }
+
+    </style>
 </head>
 <body>
 <ul class="layui-nav layui-bg-blue">
@@ -12,7 +26,183 @@
   <li class="layui-nav-item"><a href="/home">首页博客</a></li>
   <li class="layui-nav-item"><a href="/laopo">纸片人老婆们</a></li>
   <li class="layui-nav-item"><a href="/study">这个不用看</a></li>
-  <li class="layui-nav-item"><a href="/selfWeb">关于本站</a></li>
+  <li class="layui-nav-item"><a href="/selfWeb">小工具</a></li>
+  <li class="layui-nav-item layui-hide-xs"><a href="//baidu.com">技术支持</a></li>
 </ul>
+<hr/>
+<blockquote class="layui-elem-quote layui-font-16">
+    前端引用轻量级框架:
+    <a href="https://layui.dev/" class="layui-font-green">Layui</a>
+</blockquote>
+
+<blockquote class="layui-elem-quote layui-font-16">
+    后端采用:
+    <a href="https://spring.io/projects/spring-boot" class="layui-font-green">SpringBoot</a>
+    和 <a href="https://www.mysql.com/" class="layui-font-green">MySQL</a>
+</blockquote>
+
+<blockquote class="layui-elem-quote layui-font-16">
+    小工具:微博博主的相册图片抓取
+</blockquote>
+
+<div class="layui-panel">
+    <div style="padding: 32px;">
+        <form class="layui-form layui-form-pane" action="/selfWeb" method="post">
+            <div class="layui-form-item">
+                <label class="layui-form-label">COOKIE *：</label>
+                <div class="layui-input-block">
+                    <input type="text" name="ck" autocomplete="off" placeholder="请输入" lay-verify="required" class="layui-input">
+                </div>
+            </div>
+
+            <div class="layui-form-item">
+                <label class="layui-form-label">博主ID *：</label>
+                <div class="layui-input-block">
+                    <input type="text" name="uid" autocomplete="off" placeholder="请输入" lay-verify="required" class="layui-input">
+                </div>
+            </div>
+
+            <div class="layui-form-item">
+                <label class="layui-form-label">抓取页数：</label>
+                <div class="layui-input-inline">
+                    <select name="page" lay-filter="p1" id="t">
+                        <option value="1">1</option>
+                        <option value="3">3</option>
+                        <option value="5">5</option>
+                        <option value="10">10</option>
+                    </select>
+                </div>
+            </div>            
+
+            <div class="layui-form-item">
+                <button class="layui-btn layui-btn-fluid" lay-submit type="button" lay-filter="demo1" id="btn">开始抓取
+                </button>
+            </div>
+            <div style="margin-left: 600px;">
+                <a href="/download" class="layui-font-green layui-font-16" id="a">点击此处下载图片</a>
+            </div>
+        </form>
+    </div>
+</div>
+<div class="layui-bg-gray" style="padding: 16px;">
+    <div class="layui-row layui-col-space15">
+        <div class="layui-col-md6">
+            <div class="layui-card">
+                <div class="layui-card-header">Tips-1:</div>
+                <div class="layui-card-body">
+                <h4>cookie提取：</h4>
+                    <ul>
+                        <li>1.登录微博账号，在空白处右击鼠标，在菜单中选择“检查”</li>
+                        <li>2.在弹出的网页工具中选择“网络”标签</li>
+                        <li>3.在该标签下的选项中选中“Fetch/XHR”,刷新页面</li>
+                        <li>4.在左侧返回的请求数据中选择一个请求点击</li>
+                        <li>5.该请求中“标头”标签下找到“请求标头”，复制cookie对应的内容粘贴到对应的输入框</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="layui-col-md6">
+            <div class="layui-card">
+                <div class="layui-card-header">Tips-2</div>
+                <div class="layui-card-body">
+                    <h4>博主的ID：</h4>
+                    <ul>
+                        <li>1.登录微博账号，进入博主的主页</li>
+                        <li>2.在主页上方的网址中有一串数字</li>
+                        <li>3.复制这串数字粘贴到对应的输入框</li>
+                    </ul><br/>
+                    <div style="margin-left:150px;">
+                        <button class="layui-btn layui-btn-primary" lay-on="test_1">cookie获取示例图</button>
+                        <button class="layui-btn layui-btn-primary" lay-on="test_2">ID获取示例图</button>
+                    </div>                      
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="layui-footer layui-bg-blue layui-font-16" style="text-align: center;">
+    <span>小工具仅供个人使用禁止盈利@天命科技</span>
+</div>
+<script>
+    layui.use(function(){
+        var layer = layui.layer;
+        var util = layui.util;
+        var form = layui.form;
+        util.on('lay-on', {
+            'test_1': function(){
+                layer.photos({
+                    photos: {
+                        "title": "cookie示例图",
+                        "start": 0,
+                        "data": [{
+                            "alt": "ck",
+                            "pid": 1,
+                            "src": "/static/ck.png"
+                        }]
+                    },
+                    "hideFooter": true
+                })
+            },
+            'test_2': function(){
+                layer.photos({
+                    photos: {
+                        "title": "id示例图",
+                        "start": 0,
+                        "data": [{
+                            "alt": "id",
+                            "pid": 2,
+                            "src": "/static/uid.png"
+                        }]
+                    },
+                    "hideFooter": true
+                })
+            }            
+        });
+
+        form.on('submit(demo1)', function(data){
+            var fd = data.field;
+            $.ajax({
+                url: "/selfWeb",
+                data: fd,
+                type: "POST",
+                dataType: "json",
+                success: function(res){
+                    if (res.success == true) {
+                        alert("抓取完成，可点击下方链接下载");
+                    }
+                }
+            });
+            return true;
+        });
+    })
+</script>
+
+<script>
+    var btn = document.getElementById("btn");
+    var t = document.getElementById("t");
+    var a = document.getElementById("a");
+    a.classList.add("disable");
+
+    btn.addEventListener("click", function(){
+        var time = t.value * 3;
+        var c = document.getElementsByName("ck")[0].value;
+        var u = document.getElementsByName("uid")[0].value;
+
+        if (c != '' && u != '') {
+            btn.innerText = "抓取中，请稍后...";
+            btn.classList.add("loading");
+            setTimeout(function() {
+                btn.classList.remove("loading");
+
+                btn.innerText = "抓取完成";
+
+                if (btn.innerText == "抓取完成") {
+                    a.classList.remove("disable");
+                }
+           
+            }, time * 2000);
+        }
+    });
+</script>
 </body>
 </html>

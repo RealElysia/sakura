@@ -1,0 +1,12 @@
+2023-07-03 10:34:08 550 INFO  TestApi:31 - 执行用例的URL是:https://bcy.net//apiv3/user/selfPosts?uid=1810398&since=1633951612
+2023-07-03 10:34:08 912 INFO  TestApi:39 - 开始执行用例
+2023-07-03 10:34:08 983 INFO  restClient:41 - 执行有请求头的get请求:
+2023-07-03 10:34:09 831 WARN  ResponseProcessCookies:130 - Invalid cookie header: "Set-Cookie: _bcy_user_id=; path=/; expires=Thu, 01 Jan 1970 00:00:00 GMT; domain=.bcy.net; secure; httponly". Invalid 'expires' attribute: Thu, 01 Jan 1970 00:00:00 GMT
+2023-07-03 10:34:09 832 WARN  ResponseProcessCookies:130 - Invalid cookie header: "Set-Cookie: mobile_set=no; path=/; expires=Mon, 03 Jul 2023 06:53:21 GMT; domain=.bcy.net; secure; httponly". Invalid 'expires' attribute: Mon, 03 Jul 2023 06:53:21 GMT
+2023-07-03 10:34:09 832 WARN  ResponseProcessCookies:130 - Invalid cookie header: "Set-Cookie: tt_webid=7251415089269278266; path=/; expires=Thu, 06 Jul 2023 18:10:09 GMT; domain=.bcy.net; secure". Invalid 'expires' attribute: Thu, 06 Jul 2023 18:10:09 GMT
+2023-07-03 10:34:09 833 WARN  ResponseProcessCookies:130 - Invalid cookie header: "Set-Cookie: tt_webid=7251415089269278266; path=/; expires=Thu, 06 Jul 2023 18:10:09 GMT; domain=.bcy.net; secure". Invalid 'expires' attribute: Thu, 06 Jul 2023 18:10:09 GMT
+2023-07-03 10:34:09 835 INFO  restClient:43 - 请求成功！
+2023-07-03 10:34:09 835 INFO  restClient:61 - 本次请求状态码:200
+2023-07-03 10:34:09 837 INFO  restClient:66 - String格式的返回参数
+2023-07-03 10:34:09 846 INFO  restClient:68 - JSON返回参数
+2023-07-03 10:34:09 964 INFO  TestApi:52 - SUCCESS	https://p3-bcy-sign.bcyimg.com/banciyuan/def271107f8340c6899121db08d7ffec~noop.image?x-expires=1704422049&x-signature=QbEiz1jTHPqxg0uTZpdA6ifytDY%3D平平无奇中华风女仆<br>摄影感谢：cc@菜菜1911
