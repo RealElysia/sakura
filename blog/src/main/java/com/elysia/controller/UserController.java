@@ -1,9 +1,7 @@
 package com.elysia.controller;
 
 import com.elysia.entity.User;
-import com.elysia.entity.player;
 import com.elysia.services.UserServices;
-import com.elysia.services.playServices;
 import com.web.Weibo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -14,7 +12,6 @@ import org.slf4j.LoggerFactory;
 
 import java.io.File;
 import java.io.IOException;
-import java.util.List;
 
 @Controller
 @RequestMapping("/")
@@ -22,57 +19,7 @@ public class UserController {
     private final static Logger logger = LoggerFactory.getLogger(UserController.class);
     @Autowired
     private UserServices us;
-    @Autowired
-    private playServices ps;
 
-    /*
-     * 费尽九牛二虎之力搭建的博客，也是老婆们的档案
-     * @author: Bronya
-     * */
-    @RequestMapping("/login")
-    public String login(){
-        return "login";
-    }
-    // 登陆页
-    @ResponseBody
-    @PostMapping("/loginIn")
-    public player loginIn(@RequestParam int id){
-        player p = ps.getInfo(id);
-        logger.info("数据库查询：{}", p);
-        List<player> all = ps.All();
-        logger.info("所有信息:" + all);
-        if (all.contains(p)){
-            return p;
-        }else {
-            return new player(404, "error", "MsgNotFound");
-        }
-    }
-    // 首页博客
-    @RequestMapping("/home")
-    public String Home(){
-        return "main";
-    }
-    // 账号注册
-    @RequestMapping("/signup")
-    public String signUp(){
-        return "signUp";
-    }
-
-    @PostMapping("/register")
-    @ResponseBody
-    public player Register(@RequestParam String user, String pwd){
-        List<player> allMsg = ps.All();
-        if (allMsg.isEmpty()){
-            player fs = new player(16101401, user, pwd);
-            ps.saveNew(fs);
-            return fs;
-        }else {
-            int id = allMsg.size() + 16101401;
-            player other = new player(id,user,pwd);
-            ps.saveNew(other);
-            return other;
-        }
-    }
     // 纸片人老婆们
     @GetMapping("/laopo")
     public String getResult(){
@@ -131,7 +78,7 @@ public class UserController {
     @ResponseBody
     public String Web(@RequestParam String ck, String uid, int page) throws IOException {
         Weibo wb = new Weibo();
-        File flo = new File("/Users/ayaka/Desktop/sakura/blog/miao");
+        File flo = new File("/usr/local/apache-tomcat-10.1.11/webapps/blog/miao");
         final String URL = "https://weibo.com/ajax/profile/getImageWall";
 
         if (flo.exists() && flo.isDirectory()){
