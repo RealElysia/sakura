@@ -4,14 +4,16 @@ import com.elysia.entity.player;
 import com.elysia.services.playServices;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
+@Controller
+@RequestMapping("/")
 public class playController {
+    @Autowired
     private playServices ps;
     private final static Logger logger = LoggerFactory.getLogger(UserController.class);
 
@@ -23,6 +25,7 @@ public class playController {
     public String login(){
         return "login";
     }
+
     // 登陆页
     @ResponseBody
     @PostMapping("/loginIn")
@@ -37,6 +40,7 @@ public class playController {
             return new player(404, "error", "MsgNotFound");
         }
     }
+
     // 首页博客
     @RequestMapping("/home")
     public String Home(){

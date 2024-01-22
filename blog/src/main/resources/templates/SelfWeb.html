@@ -228,13 +228,14 @@
             fd.yuan = y.innerText;
             if (y.innerText>=160) {
                 $.ajax({
-                    url: "/cardOne",
+                    url: "/getOneRoles",
                     data: fd,
                     type: "POST",
                     dataType: "json",
                     success: function(r){
+						console.log(r)
                         if (r.success == true) {
-                            cd.innerHTML = r.card;
+                            cd.innerText = r.role;
                             y.innerHTML = r.yuan;
                         }else{
                             layer.alert(r.MsgNotFound);
@@ -252,13 +253,13 @@
             fd.yuan = y.innerText;
             if (y.innerText>=1600) {
                 $.ajax({
-                    url: "/cardTen",
+                    url: "/getTenRoles",
                     data: fd,
                     type: "POST",
                     dataType: "json",
                     success: function(r){
                         if (r.success == true) {
-                            var car = JSON.parse(r.card);
+                            var car = r.roles;
                             for (var i = 0; i <= car.length-1; i++) {
                                 cd.innerHTML = cd.innerHTML + car[i] + "<br>";
                             }
