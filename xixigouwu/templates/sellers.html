@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+	<script src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js"></script>
+	<link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/5.1.1/css/bootstrap.min.css">
+	<script src="https://cdn.staticfile.org/popper.js/2.9.3/umd/popper.min.js"></script>
+	<script src="https://cdn.staticfile.org/twitter-bootstrap/5.1.1/js/bootstrap.min.js"></script>
+	<style>
+	</style>
+</head>
+<body>
+<div class="alert alert-primary">
+	<strong style="margin-left: 40%;">欢迎来到嘻嘻购物中心，祝你购物愉快</strong>
+</div>
+<nav class="navbar navbar-expand-sm navbar-dark bg-info">
+	<div class="container-fluid">
+		<h3 class="navbar-brand text-success">嘻嘻购物</h3>
+		<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="mynavbar">
+			<ul class="navbar-nav me-auto">
+				<li class="nav-item">
+					<a class="nav-link text-body" data-type="all">全部</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link text-body" data-type="phone">手机</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link text-body" data-type="computer">电脑</a>
+				</li>
+			</ul>
+			<form class="d-flex" id="search">
+				<input class="form-control" type="text" placeholder="输入商品名搜索" aria-label="Search" id="sitem">
+				<button class="btn btn-primary" type="submit">
+					<i class="bi bi-search"></i>
+				</button>
+			</form>
+		</div>
+	</div>
+</nav>
+<div class="container mt-3">
+	<button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#add" aria-controls="add">添加</button>
+	
+	<!-- 侧边栏导航 -->
+	<div class="offcanvas offcanvas-start" tabindex="-1" id="add" aria-labelledby="add">
+		<div class="offcanvas-header">
+			<h5 class="offcanvas-title">宝贝入库</h5>
+		</div>
+		<div class="offcanvas-body">
+			<form id="addItem">
+				<div class="mb-3">
+					<label for="name" class="form-label">宝贝名*：</label>
+					<input type="text" class="form-control" id="name" name="name" required />
+				</div>
+				<div class="mb-3">
+					<label for="brand" class="form-label">宝贝品牌：</label>
+						<select class="form-select" id="brand" name="brand">
+							<option value="xiaomi">小米</option>
+							<option value="huawei">华为</option>
+							<option value="iphone">苹果</option>
+							<option value="oppo">OPPO</option>
+					    </select>
+				</div>
+				<div class="mb-3">
+					<label for="type" class="form-label">宝贝类型：</label>
+						<select class="form-select" id="type" name="type">
+							<option	value="phone">手机</option>
+							<option value="computer">电脑</option>
+							<option value="ipad">iPad</option>
+					    </select>
+				</div>
+			</form>
+		</div>
+	</div>
+	<!-- 宝贝卡片 -->
+	<div class="row gy-5" id="card" style="margin-top: 5px;">
+		{% for item in result %}
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<div class="row g-0">
+					<div class="col-md-6">
+						<div class="card-body">
+							<h5 class="card-title">{{item.name}}</h5>
+							<p class="card-text">品牌：{{item.brand}}</p>
+							<p class="card-text">类型：{{item.type}}</p>
+							<p class="card-text">价格：¥{{item.price}}</p>
+							<p class="card-text">销量：{{item.sales}}</p>
+							<p class="card-text">库存：{{item.inventory}}</p>
+						</div>
+					</div>
+					<div class="col-md-5" style="margin-top: 80px; margin-left: 20px;">
+						<img src="{{item.pictureUrl}}" class="img-fluid rounded-start" alt="{{item.name}}">
+					</div>
+				</div>
+			</div>
+		</div>
+		{% endfor %}
+	</div>
+</div>
+<script>
+	$(document).ready(function() {
+	    // 给每个带有 data-type 属性的 a 标签绑定点击事件
+	    $('a[data-type]').click(function(e) {
+	        e.preventDefault();  // 防止a标签的默认点击行为
+	        
+	        var dataType = $(this).data('type');  // 获取点击链接的data-type值
+	        // 发起Ajax GET请求
+	        $.ajax({
+	            url: '/queryByType', // 你的数据查询端点URL
+	            type: 'GET',
+	            data: { type: dataType }, // 发送到服务器的数据
+	            dataType: 'json',
+	            success: function(resp) {
+	                // 清空卡片
+	                $('#card').empty()
+	                // 写入搜索后返回的
+	                const card = document.getElementById('card')
+	                resp.items.forEach(item => {
+	                	const col = document.createElement('div')
+	                	col.className = 'col-md-4 mb-4'
+	                	col.innerHTML = `<div class="card h-100">
+	                		  <div class="row g-0">
+	                			<div class="col-md-6">
+	                			  <div class="card-body">
+	                				<h5 class="card-title">${item.name}</h5>
+	                				<p class="card-text">品牌：${item.brand}</p>
+	                				<p class="card-text">类型：${item.type}</p>
+	                				<p class="card-text">价格：¥${item.price}</p>
+	                				<p class="card-text">销量：${item.sales}</p>
+	                				<p class="card-text">库存：${item.inventory}</p>
+	                			  </div>
+	                			</div>
+	                			<div class="col-md-5" style="margin-top: 80px; margin-left: 20px;">
+	                			  <img src="${item.pictureUrl}" class="img-fluid rounded-start" alt="${item.name}">
+	                			</div>
+	                		  </div>
+	                		</div>`;
+	                card.appendChild(col);
+	                })
+	            }
+	        });
+	    });
+	});
+
+</script>
+<script>
+	const sh = document.getElementById('search')
+	sh.addEventListener('submit', function(event){
+		
+		var p = document.getElementById('sitem').value;
+		var data = {param: p}
+		
+		event.preventDefault()
+		
+		if(p!=null || p!=''){
+			$.ajax({
+				url: '/queryByName',
+				data: data,
+				dataType: 'json',
+				type: 'post',
+				success:function(resp){
+					// 清空卡片
+					$('#card').empty()
+					// 写入搜索后返回的
+					const card = document.getElementById('card')
+					resp.items.forEach(item => {
+						const col = document.createElement('div')
+						col.className = 'col-md-4 mb-4'
+						col.innerHTML = `<div class="card h-100">
+							  <div class="row g-0">
+								<div class="col-md-6">
+								  <div class="card-body">
+									<h5 class="card-title">${item.name}</h5>
+									<p class="card-text">品牌：${item.brand}</p>
+									<p class="card-text">类型：${item.type}</p>
+									<p class="card-text">价格：¥${item.price}</p>
+									<p class="card-text">销量：${item.sales}</p>
+									<p class="card-text">库存：${item.inventory}</p>
+								  </div>
+								</div>
+								<div class="col-md-5" style="margin-top: 80px; margin-left: 20px;">
+								  <img src="${item.pictureUrl}" class="img-fluid rounded-start" alt="${item.name}">
+								</div>
+							  </div>
+							</div>`;
+					card.appendChild(col);
+					})
+				}
+			})
+		}else{
+			alert('仅支持商品名字模糊搜索，请重试！')
+		}
+	})
+</script>
+</body>
+</html>
